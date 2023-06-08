@@ -10,8 +10,8 @@ conveccaexterna = float(input("Informe o coeficiente de convecção externo (W/(
 
 conveccaointerna = float(input("Informe o coeficiente de convecção interno (W/(m².°C)): "))
 
-temperaturadeorvalho = (109.8 + temperaturadebulboseco) * pow((umidaderelativa / 100), 0.1247) - 109.8;
-espressuranecessariadoisolante = condutividade * ((temperaturadeorvalho - temperaturadomeiorefrigerado) / (temperaturadebulboseco - temperaturadeorvalho) * 1 /conveccaointerna - 1/conveccaexterna);
+temperaturadeorvalho = (109.8 + temperaturadebulboseco) * pow((umidaderelativa / 100), 0.1247) - 109.8
+espressuranecessariadoisolante = condutividade * ((temperaturadeorvalho - temperaturadomeiorefrigerado) / (temperaturadebulboseco - temperaturadeorvalho) * 1 /conveccaointerna - 1/conveccaexterna)
 
 print("Temperatura do orvalho: ", temperaturadeorvalho)
 print("Espessura do isolamento: ", espressuranecessariadoisolante * 1000)
