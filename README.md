@@ -9,6 +9,8 @@ Ao se inscrever para participar de um projeto relacionado ao desenvolvimento de 
  -Código em C 
 ###
  -Código em Python
+ ###
+ Para testar, copie e execute o código no seu IDE.
 
 
 
